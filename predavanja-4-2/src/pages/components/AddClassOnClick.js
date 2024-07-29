@@ -4,7 +4,7 @@ export default function AddClassOnClick () {
     const divRef = useRef(null);
 
     const handleAddClass = () => {
-        divRef.current.classList.add = "addedClass"
+        divRef.current.classList.toggle("addedClass")
     }
 
     return (

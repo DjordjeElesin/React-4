@@ -10,6 +10,7 @@ import AutoSaveForm from "./components/AutoSaveForm";
 import ToggleVisibility from "./components/ToggleVisibility";
 import DynamicFontSize from "./components/DynamicFontSize";
 import AddClassOnClick from "./components/AddClassOnClick";
+import SmoothScroll from "./components/SmoothScroll";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
     <ToggleVisibility/>
     <DynamicFontSize/>
     <AddClassOnClick/>
+    <SmoothScroll/>
    </>
   );
 }
